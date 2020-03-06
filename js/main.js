@@ -46,7 +46,7 @@ const app = new Vue({
         <div :class="item.border" style="width: 20%;" v-for="(item, index) in podio" :key="index">
           <div class="card-header">{{item.categoria}}</div>
           <div :class="item.text">
-            <h5 class="card-title mt-5">{{item.ganador}}</h5>
+            <h3 class="card-title mt-5"><p class="categoria"> {{item.ganador}} </p></h3>
             <p class="card-text">{{item.puntos}} pts.</p>
           </div>
         </div>
