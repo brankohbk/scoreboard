@@ -1,0 +1,31 @@
+{
+  "puestos": [{
+      "categoria": "Presentación",
+      "puntos": 2000,
+      "ganador": "The Bananaz",
+      "border": "card border-warning m-3",
+      "text": "card-body text-warning"
+    }, {
+      "categoria": "Diseño",
+      "puntos": 4000,
+      "ganador": "MIL3R",
+      "border": "card border-primary m-3",
+      "text": "card-body text-primary"
+    },
+
+    {
+      "categoria": "UX",
+      "puntos": 4000,
+      "ganador": "Steam Pixa",
+      "border": "card border-danger m-3",
+      "text": "card-body text-danger"
+    },
+    {
+      "categoria": "Código",
+      "puntos": 7000,
+      "ganador": "Hello World",
+      "border": "card border-info m-3",
+      "text": "card-body text-info"
+    }
+  ]
+}
